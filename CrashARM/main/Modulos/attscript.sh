@@ -62,7 +62,7 @@ fun_atts () {
 
   [[ -e /tmp/att ]] && rm /tmp/att
 
-	wget -c -P /home https://worldofdragon.us.eu.org/CrashARM/main/versao
+	wget -c -P /home https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/versao
 
 	[[ -f "/home/versao" ]] && mv /home/versao /tmp/att
 
@@ -132,7 +132,7 @@ vrs2=$(sed -n '1 p' /tmp/att | sed -e 's/[^0-9]//ig')
 
     sleep 3
 
-    wget https://worldofdragon.us.eu.org/CrashARM/main/CrashARM > /dev/null 2>&1
+    wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/CrashARM > /dev/null 2>&1
 
     chmod +x CrashARM
 

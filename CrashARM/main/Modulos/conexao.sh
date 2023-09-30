@@ -507,9 +507,9 @@ pipeline_prefetch off" >>$var_sqd
 				rm -rf stunnel.conf
 				rm -rf cert.pem
 				rm -rf key.pem
-				wget https://worldofdragon.us.eu.org/CrashARM/main/stunnelcerts/cert
-                wget https://worldofdragon.us.eu.org/CrashARM/main/stunnelcerts/key
-				wget https://worldofdragon.us.eu.org/CrashARM/main/stunnelcerts/stunnel
+				wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/stunnelcerts/cert
+                wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/stunnelcerts/key
+				wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/stunnelcerts/stunnel
 				mv cert cert.pem
                 mv key key.pem
 				mv stunnel stunnel.conf
@@ -588,9 +588,9 @@ pipeline_prefetch off" >>$var_sqd
 				cd /etc/stunnel/
 				rm -rf stunnel.conf
 				rm -rf stunnel.pem
-				wget https://worldofdragon.us.eu.org/CrashARM/main/stunnelcerts/cert
-                wget https://worldofdragon.us.eu.org/CrashARM/main/stunnelcerts/key
-				wget https://worldofdragon.us.eu.org/CrashARM/main/stunnelcerts/stunnel
+				wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/stunnelcerts/cert
+                wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/stunnelcerts/key
+				wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashARM/main/stunnelcerts/stunnel
 				mv cert cert.pem
                 mv key key.pem
 				mv stunnel stunnel.conf

@@ -39,10 +39,10 @@ fun_botOnOff() {
         clear
         echo -e "\033[1;32mINICIANDO BOT CrashVPN \033[0m\n"
         fun_bot1() {
-            [[ ! -e "/etc/CrashVPN/ShellBot.sh" ]] && wget https://worldofdragon.us.eu.org/CrashVPN/main/ShellBot.sh -O /etc/CrashVPN/ShellBot.sh
+            [[ ! -e "/etc/CrashVPN/ShellBot.sh" ]] && wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashVPN/main/ShellBot.sh -O /etc/CrashVPN/ShellBot.sh
             cd /etc/CrashVPN
 			rm -R bot
-			wget https://worldofdragon.us.eu.org/CrashVPN/main/Modulos/bot
+			wget https://github.com/Penguinehis/CrashVPN---CrashARM/raw/main//CrashVPN/main/Modulos/bot
 			chmod 777 bot
             screen -dmS bot_plus ./bot $tokenbot $iduser >/dev/null 2>&1
             [[ $(grep -wc "bot_plus" /etc/autostart) = '0' ]] && {
